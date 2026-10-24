@@ -3,6 +3,8 @@
 Static website for [Arena Transport Services](https://arenatransport.com.au), a Sydney metropolitan express courier company.
 It was migrated from WordPress (Divi theme) to plain HTML/CSS/JS so it can be hosted on GitHub Pages.
 
+**Live site:** <https://arena-transport-services.github.io/arena-transport-services/>
+
 ## Structure
 
 ```
@@ -24,16 +26,19 @@ Then open <http://localhost:8000>.
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repository and push this folder to the `main` branch.
-2. In the repository, open **Settings → Pages**, set **Source** to *Deploy from a branch*, and pick `main` / `(root)`.
-3. The site will be published at `https://<user>.github.io/<repo>/`.
+The site is deployed from the `main` branch (root folder) of
+[arena-transport-services/arena-transport-services](https://github.com/arena-transport-services/arena-transport-services)
+and published at <https://arena-transport-services.github.io/arena-transport-services/>.
+Every push to `main` goes live within a minute or two.
+
+The Pages settings are under **Settings → Pages**: **Source** is *Deploy from a branch*, `main` / `(root)`.
 
 ### Custom domain (arenatransport.com.au)
 
 1. Add a `CNAME` file containing `arenatransport.com.au` (or set the domain under **Settings → Pages**).
 2. At the DNS provider, point the apex domain to GitHub Pages with `A` records
    `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`,
-   and add a `CNAME` record for `www` pointing to `<user>.github.io`.
+   and add a `CNAME` record for `www` pointing to `arena-transport-services.github.io`.
 3. Once DNS has propagated, enable **Enforce HTTPS**.
 
 ## Contact form
