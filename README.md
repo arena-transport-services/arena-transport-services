@@ -1,6 +1,6 @@
 # Arena Transport Services – website
 
-Static website for [Arena Transport Services](https://arenatransport.com.au), a Sydney metropolitan express courier company.
+Static website for [Arena Transport Services](https://arena-transport-services.github.io/arena-transport-services/), a Sydney metropolitan express courier company.
 It was migrated from WordPress (Divi theme) to plain HTML/CSS/JS so it can be hosted on GitHub Pages.
 
 **Live site:** <https://arena-transport-services.github.io/arena-transport-services/>
